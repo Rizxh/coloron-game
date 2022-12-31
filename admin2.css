@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-weight: 600;
+}
+
+header h3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 45px;
+    background: linear-gradient(45deg, #ff008c, #d400ff, #ffe100, #ff8000, #ff00fb, #ff0505, #fd0202);
+    background-size: 500% 500%;
+    -webkit-animation: ignielGradient 12s ease infinite;
+    -moz-animation: ignielGradient 12s ease infinite;
+    animation: ignielGradient 12s ease infinite;
+    color: white;
+}
+
+.nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.kanan {
+    display: block;
+}
+
+.kiri {
+    display: flex;
+    float: left;
+}
+
+.kotak1 {
+    position: absolute;
+    width: 440px;
+    height: 260px;
+    left: 130px;
+    top: 250px;
+    background: linear-gradient(180deg, #7000FF 0%, rgba(144, 0, 255, 0.49) 100%);
+    border-radius: 35px;
+}
+
+.user-account {
+    position: absolute;
+    width: 100%;
+    padding-top: 65px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.kanan .daftar {
+    position: absolute;
+    width: 281px;
+    height: 100px;
+    left: 645px;
+    top: 325px;
+    background: linear-gradient(179.49deg, #00D909 0.44%, rgba(169, 255, 139, 0.39) 157.55%);
+    border-radius: 40px;
+}
+
+.kanan .daftar a {
+    position: absolute;
+    width: 186px;
+    height: 48px;
+    left: 50px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.kanan .list {
+    position: absolute;
+    width: 281px;
+    height: 100px;
+    left: 994px;
+    top: 325px;
+    background: linear-gradient(179.49deg, #00D909 0.44%, rgba(169, 255, 139, 0.39) 157.55%);
+    border-radius: 40px;
+}
+
+.kanan .list a {
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    left: 60px;
+    padding-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.kiri {
+    position: absolute;
+    width: 261px;
+    height: 60px;
+    left: 1200px;
+    top: 70px;
+    background: linear-gradient(179.49deg, #D90000 0.44%, rgba(255, 245, 0, 0.39) 157.55%);
+    border-radius: 40px;
+}
+
+.log-out-admin a {
+    position: absolute;
+    width: 224px;
+    height: 48px;
+    left: 50px;
+    top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.line1 {
+    position: absolute;
+    width: 75px;
+    height: 0px;
+    left: 570px;
+    top: 372px;
+    border: 2px solid #000000;
+}
+
+.line2 {
+    position: absolute;
+    width: 68px;
+    height: 0px;
+    left: 926px;
+    top: 372px;
+    border: 2px solid #000000;
+}
